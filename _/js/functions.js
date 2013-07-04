@@ -38,7 +38,7 @@ $(document).ready(function (){
 			$(document).scroll(function(){
 			    if($(this).scrollTop() > t)
 			    {   
-			        $.backstretch("http://dl.dropbox.com/u/515046/www/garfield-interior.jpg");
+			        $.backstretch("http://farm9.staticflickr.com/8412/8863127454_cc8d40aab3_h.jpg");
 			    }
 			});
 
