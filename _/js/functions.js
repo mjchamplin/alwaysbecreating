@@ -15,6 +15,8 @@
 /* trigger when page is ready */
 $(document).ready(function (){
 
+			$.backstretch("http://farm4.staticflickr.com/3821/9050490511_d803f18049_h.jpg");
+
 			// calculating heights of elements relative to browser size
 		    $("header.intro").css("height",$(window).height()*.8+"px");
 		    $("div.intro-top").css("padding-top",$("header.intro").height()*.3+"px");
@@ -24,12 +26,19 @@ $(document).ready(function (){
 
 
    	        // background changes when scroll to anchor
-			var t = $("#three").offset().top+75;
+			var t = $("#three").offset().top;
+
+			/* $(document).scroll(function(){
+			    if($(this).scrollTop() > t)
+			    {   
+			        $('body').css({"background-image":"url('http://farm9.staticflickr.com/8412/8863127454_cc8d40aab3_h.jpg')"});
+			    }
+			});*/
 
 			$(document).scroll(function(){
 			    if($(this).scrollTop() > t)
 			    {   
-			        $('body').css({"background-image":"url('http://farm9.staticflickr.com/8412/8863127454_cc8d40aab3_h.jpg')"});
+			        $.backstretch("http://dl.dropbox.com/u/515046/www/garfield-interior.jpg");
 			    }
 			});
 
