@@ -22,7 +22,7 @@ $(document).ready(function (){
 		    $("div.intro-top").css("padding-top",$("header.intro").height()*.3+"px");
    	        $("div.glass").css("top",$(window).height()/5 +"px");
 
-   	        $("section#three").css("min-height",$(window).height()*1.5+"px");
+   	        /*$("section#three").css("min-height",$(window).height()*1.5+"px");*/
 
 
    	        // background changes when scroll to anchor

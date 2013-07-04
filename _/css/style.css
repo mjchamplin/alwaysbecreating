@@ -59,7 +59,7 @@ section p { margin-bottom: 2em; }
 section p:last-child { margin: 0;}
 section { margin: 24em auto; width: 100%; max-width: 760px; background-color: #fff; padding: 4em;}
 
-section#three { padding: 12em 0; max-width: none;}
+section#three { padding: 0; max-width: none;}
 
 footer { text-align: center;}
 /* Print styles!
