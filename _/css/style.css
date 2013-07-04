@@ -60,6 +60,7 @@ section p:last-child { margin: 0;}
 section { margin: 24em auto; width: 100%; max-width: 760px; background-color: #fff; padding: 4em;}
 
 section#three { padding: 0; max-width: none;}
+section#four { max-width: none; background-image: url('http://farm9.staticflickr.com/8493/8370703605_eb66cda2d4_h.jpg'); background-size: cover; background-attachment: fixed; padding: 0; height: 800px;}
 
 footer { text-align: center;}
 /* Print styles!
