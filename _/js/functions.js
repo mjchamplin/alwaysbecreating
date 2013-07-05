@@ -48,12 +48,21 @@ $(document).ready(function (){
 });
 
 
-/* optional triggers
+/* optional triggers */
 
 $(window).load(function() {
-	
+	$.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+
+// Usage:
+
+$(['http://farm9.staticflickr.com/8412/8863127454_cc8d40aab3_h.jpg']).preload();
 });
 
+/*
 $(window).resize(function() {
 	
 });
