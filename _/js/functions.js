@@ -27,14 +27,6 @@ $(document).ready(function (){
 
    	        // background changes when scroll to anchor
 			var t = $("#three").offset().top;
-
-			/* $(document).scroll(function(){
-			    if($(this).scrollTop() > t)
-			    {   
-			        $('body').css({"background-image":"url('http://farm9.staticflickr.com/8412/8863127454_cc8d40aab3_h.jpg')"});
-			    }
-			});*/
-
 			$(document).scroll(function(){
 			    if($(this).scrollTop() > t)
 			    {   
@@ -42,8 +34,8 @@ $(document).ready(function (){
 			    }
 			});
 
-			var tt = $("#one").offset().top+75;
-
+			// logo appears on scroll target
+			var tt = $("#trigger").offset().top;
 			$(document).scroll(function(){
 			    if($(this).scrollTop() > tt)
 			    {   
